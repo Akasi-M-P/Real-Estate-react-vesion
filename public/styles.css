@@ -1,0 +1,123 @@
+.main-nav{
+    height: 8rem;
+    width: 100%;
+    background-color: black;
+    /* margin: 0px 16px 0px 16px; */
+}
+
+
+
+.logo img{
+    width: 15rem;
+    height: 6rem;
+    object-fit: cover;
+    cursor: pointer;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.flag img{
+    width: 6rem;
+    height: 3rem;
+    object-fit: cover;
+    cursor: pointer;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+
+}
+
+body{
+    background-color: black;
+}
+
+.about h3{
+    color: black;
+    font-family: monospace;
+    cursor: pointer;
+    
+}
+
+h3:hover{
+    color: red;
+}
+
+.countries{
+    margin-left: 20rem;
+}
+
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    /* margin: 0px 200px 0px 16px; */
+    /* margin-right: -100%; */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+
+
+.our p{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.homes div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    margin-top: 4rem;
+    height: 20rem;
+    background-color: #d6d6c2;
+}
+
+.us{
+    margin-top: 4rem;
+    color:#001a00;
+    font-family: monospace;
+}
+
+.nai{
+    font-family: monospace;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.description-head{
+    font-family: monospace;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.description{
+    font-family: monospace;
+}
